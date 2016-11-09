@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ContentExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>UserLocalNotification.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>144E571D1DD32C7B000611ED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>14D51D461DD26E78008669C7</key>
 		<dict>
 			<key>primary</key>

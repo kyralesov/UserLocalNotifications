@@ -1,0 +1,43 @@
+1) AppDelegate -> UNUserNotificationCenter.current().requestAuthorization(....)
+2) Delegat
+
+3) Default Notification
+    content = UNMutableNotificationContent
+    triger = UNNotificationTrigger (UNTimeIntervalNotificationTrigger ... )
+    request = UNNotificationRequest
+    .add(request)
+
+4) Notification With Attachment
+    content.attachments = UNNotificationAttachment
+
+5) Notification with Action
+    action = UNNotificationAction
+    category = UNNotificationCategory
+    UNUserNotificationCenter.current().setNotificationCategories
+
+    content
+    content.categoryIdentifier
+    triger
+    request
+    .add(request)
+
+6) Notification with Custom UI
+    
+    New Target (Notification Context Ext)
+        info.plist -> UNNotificationExtensionInitialContentSizeRatio
+                      UNNotificationExtensionDefaultContentHidden
+                      UNNotificationExtensionCategory
+
+    content
+    content.categoryIdentifier
+    attachment
+    content.attachments
+    triger
+    request
+    .add(request)
+
+7) Notification with Custom UI Action
+
+    action
+    category
+    .current().setNotificationCategories
